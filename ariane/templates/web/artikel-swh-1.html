@@ -1,0 +1,20 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+    <section class="artikel-content">
+        <div class="container">
+            <h3><u>Prinsip kerja Solar Water heater</u></h3>
+            <img class="rounded mx-auto d-block pt-5 pb-1" src="{% static 'web/img/Thermosiphon.jpg' %}" alt="">
+            <p class="pt-3">Solar water heater bekerja dengan sistem thermosiphon. Prinsip dari thermosiphon adalah proses perpindahan panas yang bersifat pasif atau tanpa bantuan perana luar seperti contoh pompa. Perpindahan panas ini terjadi
+                dengan proses konveksi natural. Proses ini menggunakan air sebagai medium perpindahan panas. Air di kollektor dipanaskan oleh sinar matahari.
+                Air panas memiliki massa yang lebih ringan daripada air dingin. Sehingga air panas akan naik dari kollektor atau kaca ke tangki bagian atas. Sebaliknya air dingin
+                akan turun ke kollektor dan dipanaskan kembali oleh sinar matahari. Penting untuk diperhatikan, bahwa tangki air harus minimal terletak di atas kollektor untuk memungkinkan proses sirkulasi air.
+            </p>
+            <h3><u>Keuntungan Ekonomi</u></h3>
+            <p class="pt-3">Dengan menggunakan Solar water heater, memanaskan air dapat menggunakan energi matahari yang gratis.
+                Menurut study dari MIT International Journal of mechanical engineering, sebuah solar water heater dengan kapasitas 100 liter dapat
+                mencegah emisi gas CO2 sebesar 1.5 ton per tahun.
+            </p>
+        </div>
+    </section>
+{% endblock %}

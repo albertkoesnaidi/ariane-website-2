@@ -1,0 +1,39 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+    <section class="pump-text">
+        <div class="container">
+            <h3>Ariane Bosster Pump</h3>
+            <p>Kami menawarkan Booster Pump EQ series yang didesign untuk supply air dan memberi tekanan lebih.</p>
+        </div>
+    </section>
+
+    <section class="pump-product">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-5">
+                    <img src="{% static 'web/img/product-pompa.jpg' %}" alt="swh-vacuum">
+                </div>
+                <div class="col-sm-7 fs-5">
+                    <ul>
+                        <li>Memiliki design yang compact dan bunyi yang sunyi, sehingga cocok untuk pemakaian rumah tangga</li>
+                        <li>Dibuat dari material yang tahan korosi</li>
+                        <li>Terdapat sensor dry-running. Sehingga pompa akan otomatis mati jika tidak ada air</li>
+                        <li>Dilengkapi dengan teknologi "anti-cycling" yang mencegah pompa untuk secara terus-menerus on dan off pada waktu pemakaian sedikit</li>
+                    </ul>
+                    <a href="{% static 'web/media/test.pdf' %}" download>Brosur EQ-200</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>Brosur EQ-400</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>Brosur EQ-800</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="find-partner-banner">
+        <div class="container">
+            <a href="{% url 'web:partner' %}">Find Partners</a>
+        </div>
+    </section>
+
+{% endblock %}

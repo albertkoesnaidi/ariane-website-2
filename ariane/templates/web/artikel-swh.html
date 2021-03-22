@@ -1,0 +1,38 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+    <section class="artikel">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img class="img-left" src="{% static 'web/img/swh-vacuum.jpg' %}" alt="swh-vacuum">
+                </div>
+                <div class="col-9">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident illo quidem doloremque soluta enim veniam impedit consequatur modi, laboriosam quas.</p>
+                    <a href="{% url 'web:artikel-swh-1' %}">selanjutnya</a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-9">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum dolore optio error illo? Atque nesciunt vitae error fugiat, blanditiis quia unde voluptate soluta doloribus earum ipsam quidem distinctio consequuntur.</p>
+                    <a href="#">Selanjutnya</a>
+                </div>
+                <div class="col-3">
+                    <img class="img-right" src="{% static 'web/img/swh-vacuum.jpg' %}" alt="swh-vacuum">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-3">
+                    <img class="img-left" src="{% static 'web/img/swh-vacuum.jpg' %}" alt="swh-vacuum">
+                </div>
+                <div class="col-9">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident illo quidem doloremque soluta enim veniam impedit consequatur modi, laboriosam quas.</p>
+                    <a href="#">selanjutnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+{% endblock %}

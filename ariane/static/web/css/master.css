@@ -1,0 +1,854 @@
+.navbar .collapse .nav-link:hover{
+    color: brown;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+.footer{
+    background-color: crimson;
+}
+
+.header{
+    background: url('../img/header_globalwarming.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+}
+
+.header a{
+    background: crimson;
+    color: white;
+    margin-top: 30px;
+    margin-left: 780px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.header a:hover{
+    background-color: aqua;
+}
+
+.text1{
+    padding-left: 30px;
+    padding-top: 180px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 100%;
+    color: black;
+    width: 50%;
+}
+
+.ttg-kami{
+    margin-top: 40px;
+    font-size: 20px;
+}
+#ttg-kami-span{
+    color: crimson;
+}
+.ttg-kami img{
+    padding-left: 40%;
+}
+.ttg-kami h3{
+    margin-top: 50px;
+}
+.ttg-kami a{
+    background: crimson;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+.ttg-kami a:hover{
+    background-color: darkgreen;
+}
+
+.about{
+    padding-bottom: 100px;
+    background-color: darkgray;
+}
+
+.about .box{
+    width: calc(33%-20px);
+    height: 200px;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    padding-top: 40px;
+}
+
+.about .box:hover{
+    width: calc(55%-20px);
+    height: 280px;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 40px 50px;
+    padding-top: 60px;
+    font-size: x-large;
+}
+
+.text-about{
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+.products{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+}
+
+.products .text-products{
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.projects{
+    padding-top: 100px;
+}
+.projects .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+.projects .container .card:hover .overlay{
+    opacity: 0.6;
+}
+.projects .text{
+    color: darkorange;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mission{
+    background: crimson;
+  
+}
+
+#green-energy-img{
+    width: 600px;
+    height: 400px;
+
+}
+#text-mission{
+    color: white;
+    text-align: start;
+    width: 60x;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+.mission a{
+    background: darkgreen;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.mission a:hover{
+    background: darkorange;
+}
+
+.fact{
+    background: url('../img/fact2.jpeg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fact h4{
+    color: white;
+    font-size: 30px;
+    margin:auto;
+    padding-left: 10px;
+    width: 90%;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+
+.fact a{
+    background: rgb(20, 113, 220);
+    color: white;
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.fact a:hover{
+    background: brown;
+}
+
+.projects a{
+    background: crimson;
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+.projects a:hover{
+    background: cornflowerblue;
+}
+
+.about-header{
+    margin-top: 60px;
+    background: url('../img/about_banner.jpeg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.about-visi h5{
+    font-weight: 500;
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+.about-visi p{
+    padding-top: 20px;
+    text-align: start;
+}
+.about-misi h5{
+    font-weight: 500;
+    padding-top: 50px;
+    font-size: x-large;
+}
+.about-misi p{
+    padding-top: 20px;
+    text-align: start;
+    padding-bottom: 30px;
+}
+.about-value h5{
+    font-weight: 500;
+    padding-top: 50px;
+    font-size: x-large;
+}
+.about-value p{
+    padding-top: 20px;
+    text-align: start;
+    padding-bottom: 30px;
+}
+.about-value img{
+    width: 250px;
+    height: 250px;
+}
+
+.profil-perusahaan{
+    background: blanchedalmond;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.profil-perusahaan h3{
+    padding-top: 50px;
+    text-align: start;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.profil-perusahaan p{
+    text-align: start;
+
+}
+.profil-perusahaan .container{
+    margin-top: 60px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    padding-bottom: 70px;
+}
+
+.footer-text p{
+    text-align: start;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.footer a{
+    float: left;
+    padding-left: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.project-header{
+    margin-top: 60px;
+    background: url('../img/project_geo.png') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+}
+
+.project-text .container{
+    text-align: start;
+    font-size: 30px;
+    padding: 50px;
+
+}
+
+.project-perumahan{
+    margin-top: 60px;
+    background: url('../img/perumahan.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.project-perumahan h3{
+    font-size: 30px;
+    color: darkgoldenrod;
+    padding-top: 150px;
+}
+
+.project-residential-list{
+    padding-top: 100px;
+}
+.project-residential-list .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+.project-residential-list .container .card:hover .overlay{
+    opacity: 0.6;
+}
+.project-residential-list .text{
+    color: darkorange;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.project-commercial-list{
+    padding-top: 100px;
+}
+.project-commercial-list .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+.project-commercial-list .container .card:hover .overlay{
+    opacity: 0.6;
+}
+.project-commercial-list .text{
+    color: darkorange;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.project-hotel{
+    margin-top: 60px;
+    background: url('../img/hotel.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.project-hotel h3{
+    font-size: 30px;
+    color: white;
+    padding-top: 150px;
+}
+
+.product-header{
+    margin-top: 60px;
+    background: url('../img/products-banner.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+}
+
+.product-text1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.product-text1 h3{
+    font-size: 50px;
+    color: darkorange;
+    font-weight: 300;
+}
+.product-text1 p{
+    text-align: start;
+    font-size: 25px;
+}
+
+.product-list .container img{
+    width: 300px;
+    height: 300px;
+}
+
+.product-list .container a{
+    margin-left: 50px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: crimson;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.product-swh{
+    margin-top: 60px;
+    background: url('../img/product-swh1.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.product-swh h3{
+    padding-top: 80px;
+    color: black;
+}
+
+.product-swh a{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: crimson;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.product-heatpump{
+    margin-top: 60px;
+    background: url('../img/product-heatpump1.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.product-heatpump h3{
+    padding-top: 80px;
+    color: white;
+}
+
+.product-heatpump a{
+    margin-left: 87%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: crimson;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.product-pump{
+    margin-top: 60px;
+    background: url('../img/product-pump1.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.product-pump h3{
+    padding-top: 80px;
+    color: aqua;
+}
+
+.product-pump a{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: crimson;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.swh-text h3{
+    padding-top: 150px;
+    color: darkorange;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.swh-product{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.swh-product h4{
+    font-size: 40px;
+    color: darkorange;
+    font-weight: 300;
+}
+
+
+.swh-text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.swh-product img{
+    width: 400px;
+    height: 370px;
+    display: flex;
+    padding-bottom: 40px;
+}
+#swh-vacuum-img{
+    float: left;
+}
+
+#swh-flat-img{
+    float:right
+}
+
+.swh-product p{
+    font-size: 19px;
+}
+
+.swh-product a{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: darkorange;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.swh-product a:hover{
+    background: darkolivegreen;
+}
+
+.heatpump-text h3{
+    padding-top: 150px;
+    color: darkorange;
+    font-weight: 300;
+    font-size: 50px;
+}
+.heatpump-text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.heatpump-swimming-pool{
+    background: url('../img/swimming-pool-heatpump.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.heatpump-swimming-pool h3{
+    color: darkred;
+    padding-top: 130px;
+}
+
+.heatpump-swimming-pool-product img{
+    width: 400px;
+    height: 370px;
+    display: flex;
+    padding-bottom: 40px;
+}
+.heatpump-swimming-pool-product a{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: darkorange;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.heatpump-swimming-pool-product a:hover{
+    background: darkolivegreen;
+}
+
+.heatpump-hotel{
+    background: url('../img/hotel-heatpump.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.heatpump-hotel h3{
+    color: darkred;
+    padding-top: 130px;
+}
+
+.heatpump-hotel-product img{
+    width: 400px;
+    height: 370px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.heatpump-hotel-product a{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: darkorange;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+.heatpump-hotel-product a:hover{
+    background: darkolivegreen;
+}
+
+.heatpump-residential{
+    background: url('../img/residential-heatpump.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.heatpump-residential h3{
+    color: darkred;
+    padding-top: 130px;
+}
+
+.heatpump-residential-product img{
+    width: 400px;
+    height: 370px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.heatpump-residential-product a{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: darkorange;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+.heatpump-residential-product a:hover{
+    background: darkolivegreen;
+}
+
+.pump-text h3{
+    padding-top: 150px;
+    color: darkorange;
+    font-weight: 300;
+    font-size: 50px;
+}
+.pump-text p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: start;
+}
+.pump-product img{
+    width: 400px;
+    height: 370px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.pump-product a{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: darkorange;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+.pump-product a:hover{
+    background: darkolivegreen;
+}
+
+.find-partner-banner{
+    background: url('../img/our-parner.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.find-partner-banner a{
+    float: right;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    background: darkorange;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+.find-partner-banner a:hover{
+    background: darkolivegreen;
+}
+
+.our-partner-text h3{
+    padding-top: 150px;
+    color: darkorange;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.about-kontakt-banner{
+    margin-top: 60px;
+    background: url('../img/about-office.jpg') no-repeat center;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.about-kontakt-text{
+    margin-bottom: 50px;
+}
+
+.artikel{
+    margin-top: 80px;
+}
+.artikel .img-left{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.artikel .img-right{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+.artikel a{
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+    background: darkorange;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    padding: 12px 36px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid;
+}
+.artikel a:hover{
+    background: darkblue;
+}
+
+.artikel-content{
+    margin-top: 80px;
+}

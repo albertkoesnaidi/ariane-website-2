@@ -1,0 +1,102 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+    <section class="heatpump-text">
+        <div class="container">
+            <h3>Ariane Heatpump Water Heater</h3>
+            <p>Heatpump water heater adalah alat yang digunakan untuk memindahkan panas dari suatu sumber energi panas ke tempat yang membutuhkan panas. Dalam hal ini Ariane heatpump water heater menggunakan sumber energi panas yang berupa udara di sekitar kita yang panas dan lembab. Prinsip kerja heatpump adalah seperti pendingin ruangan yang kita miliki sekarang ini. Panas dari udara sekitar dipindahkan ke air melalui kompressor dengan bantuan regrigerant. Oleh sebab itu heatpump memiliki effektivitas yang lebih tinggi daripada menggunakan seperti contoh boiler gas atau listrik. Sebagai dampak dari proses pemanasan air ini maka udara sejuk akan di produksi sebagai waste product dari heatpump dan dapat dipakai sebagai penyejuk ruangan</p>
+        </div>
+    </section>
+
+    <section class="heatpump-swimming-pool">
+        <div class="container">
+            <h3 class="text-center">Swimming Pool</h3>
+        </div>
+    </section>
+
+    <section class="heatpump-swimming-pool-product">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-sm-5">
+                    <img id="swh-vacuum-img" src="{% static 'web/img/swh-vacuum.jpg' %}" alt="swh-vacuum">
+                </div>
+                <div class="col-7 fs-5">
+                    <ul>
+                        <li>Menggunakan R410a sebagai refrigerant yang ramah lingkungan</li>
+                        <li>Menggunakan heat exchanger berbahan titanium untuk mengurangi korrosivitas</li>
+                        <li>Dapat dipakai untuk mendinginkan dan memanaskan kolam rengana</li>
+                        <li>dilengkapi dengan safety protection yang lengkap</li>
+                    </ul>
+                    <a href="{% static 'web/media/test.pdf' %}" download>broschure 100 ltr</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>broschure 200 ltr</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>broschure 300 ltr</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="heatpump-hotel">
+        <div class="container">
+            <h3 class="text-center">Commercial</h3>
+        </div>
+    </section>
+
+    <section class="heatpump-hotel-product">
+        <div class="container">
+           
+                <div class="row pt-4">
+                    <div class="col-sm-7 fs-5">
+                        <ul>
+                            <li>Menggunakan refrigerant R410a yang ramah lingkungan</li>
+                            <li>Mengadopsi sistem tube-in-tube heat exchanger sehingga memiliki COP yang tinggi</li>
+                            <li>Dilengkapi dengan system safety protection yang lengkap</li>
+                            <li>Dapat digunakan untuk sistem pemanasan dan pendinginan air</li>
+                        </ul>
+                        <a href="{% static 'web/media/test.pdf' %}" download>broschure 100 ltr</a>
+                        <a href="{% static 'web/media/test.pdf' %}" download>broschure 200 ltr</a>
+                        <a href="{% static 'web/media/test.pdf' %}" download>broschure 300 ltr</a>
+                    </div>
+                    <div class="col-sm-5">
+                        <img id="swh-flat-img" src="{% static 'web/img/swh-flat.jpg' %}" alt="swh-vacuum">
+                    </div>
+                </div>
+            
+        </div>
+
+    </section>
+
+    <section class="heatpump-residential">
+        <div class="container">
+            <h3 class="text-center">Residential</h3>
+        </div>
+    </section>
+
+    <section class="heatpump-residential-product">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-sm-5">
+                    <img id="swh-vacuum-img" src="{% static 'web/img/swh-vacuum.jpg' %}" alt="swh-vacuum">
+                </div>
+                <div class="col-sm-7 fs-5">
+                    <ul>
+                        <li>Menggunakan refrigerant R410a yang ramah lingkungan</li>
+                        <li>System Tube in shell heat exchanger sehingga tercapai COP yang maksimal</li>
+                        <li>Dilengkapi dengan safety protection yang lengkap</li>
+                        <li>Dapat digunakan untuk pemanasan dan pendinginan air</li>
+                    </ul>
+                    <a href="{% static 'web/media/test.pdf' %}" download>broschure 100 ltr</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>broschure 200 ltr</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>broschure 300 ltr</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="find-partner-banner">
+        <div class="container">
+            <a href="{% url 'web:partner' %}">Find Partners</a>
+        </div>
+    </section>
+
+{% endblock %}

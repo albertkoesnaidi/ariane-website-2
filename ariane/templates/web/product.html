@@ -1,0 +1,34 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+    <section class="product-header">
+    </section>
+
+    <section class="product-text1">
+        <div class="container">
+            <h3>Ariane Water Heater</h3>
+            <p>Segment kami bergerak di bidang energi terbarukan. Untuk menunjang visi kami, kami menawarkan beberapa product. Product-product yang kami tawarkan seperti pemanas air matahari, heatpump dan pompa pendorong serta filter air. Untuk informasi lebih lanjut silahkan beralih ke bagian masing-masing di bawah ini.</p>
+        </div>
+    </section>
+
+    <section class="product-swh">
+        <div class="container">
+            <h3 class="text-start">Solar Water Heater</h3>
+            <a href="{% url 'web:swh' %}">Selanjutnya</a>
+        </div>
+    </section>
+
+    <section class="product-heatpump">
+        <div class="container">
+            <h3 class="text-end">Heatpump</h3>
+            <a href="{% url 'web:heatpump' %}">Selanjutnya</a>
+        </div>
+    </section>
+
+    <section class="product-pump">
+        <div class="container">
+            <h3 class="text-start">Booster Pump and Filter</h3>
+            <a href="{% url 'web:pump' %}">Selanjutnya</a>
+        </div>
+    </section>
+{% endblock %}

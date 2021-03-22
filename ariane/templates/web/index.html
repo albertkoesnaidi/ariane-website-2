@@ -1,0 +1,177 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+<section class="header" id="header">
+    <div class="home-content">
+        <p class="text1" >Mari kita bersama-sama menjadikan bumi ini menjadi tempat yang lebih layak untuk dihuni</p>
+       <!-- <a href="{% url 'web:product' %}">Artikel</a> -->
+    </div>
+</section>
+
+<section class="ttg-kami">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>Mengenal <span id="ttg-kami-span"> Ariane </span></h3>
+        <p>Kami adalah penyedia jasa yang bergerak di bidang energi terbarukan. Kami spesialisasi untuk pemasangan pemanas air tenaga matahari dan heatpump. Dengan teknologi ini maka Anda tidak hanya bisa menyelamatkan bumi dari perubahan iklim yang berbahaya namum Anda dapat juga menghemat pengeluaran bulanan Anda</p>
+        <a href="{% url 'web:about' %}">Tentang kami</a>
+      </div>
+      <div class="col">
+        <img src="{% static 'web/img/logo-ariane.png'%}" alt="ariane logo">
+      </div>
+    </div>
+    
+  </div>
+
+</section>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a9a9a9" fill-opacity="1" d="M0,224L1440,96L1440,320L0,320Z"></path></svg>
+<section class="about" id="about">
+    <h4 class="text-about">Mengapa kami</h4>
+    <div class="container">
+        <div class="row pb-2">
+            <div class="col">
+                <div class="box">
+                    <h1 class="fw-bold text-center "><i class="fas fa-hourglass-half"></i></h1>
+                <p class="text-center">Pengalaman selama 35 tahun di bidang pemanas air matahari</p>
+                </div>
+                 
+            </div>
+            <div class="col">
+                <div class="box">
+                    <h1 class="fw-bold text-center"><i class="far fa-smile"></i></h1>
+                <p class="text-center">Kepuasan customer menjadi yang nomer satu bagi kami</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box">
+                    <h1 class="fw-bold text-center"><i class="fas fa-cogs"></i></h1>
+                <p class="text-center">Pelayanan aftersales service yang sigap dan terpercaya</p>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col">
+              <div class="box">
+                  <h1 class="fw-bold text-center "><i class="fas fa-hand-holding-usd"></i></h1>
+              <p class="text-center">Kami menawarkan product yang berkualitas dengan harga yang bersaing</p>
+              </div>
+               
+          </div>
+          <div class="col">
+              <div class="box">
+                  <h1 class="fw-bold text-center"><i class="fas fa-user-clock"></i></h1>
+              <p class="text-center">Teknisi yang berkompetensi dengan jam terbang yang tinggi</p>
+              </div>
+          </div>
+          <div class="col">
+              <div class="box">
+                  <h1 class="fw-bold text-center"><i class="fas fa-map-marked-alt"></i></i></h1>
+              <p class="text-center">Kami menawarkan layanan ke seluruh nusantara</p>
+              </div>
+          </div>
+      </div>
+        
+    </div>   
+</section>
+
+<section class="mission" id="mission">
+ 
+    <div class="row">
+      <div class="col">
+        <h4 id="text-mission">Bisakah mengurangi biaya listrik rumah dan sekaligus mengurangi efek rumah kaca? temukan jawaban Anda pada artikel-artikel kami pada link di bawah ini</h4>
+        <a href="{% url 'web:artikel-swh' %}">Artikel</a>
+      </div>
+      <div class="col">
+        <img class="float-sm-end" id="green-energy-img" src="{% static 'web/img/green_energy.jpeg'%}" alt="green_energy">
+      </div>
+    </div>
+  
+</section>
+
+<!-- Do not display this image at the moment
+<section class="products" id="products">
+    <h4 class="text-products text-center fw-bold pb-3">Products</h4>
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem; color: black; border-radius: 10px;">
+                <img src="{% static 'web/img/p1.jpg'%}" class="card-img-top" alt="p1">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem; color: black; border-radius: 10px;">
+                <img src="{% static 'web/img/p2.jpg'%}" class="card-img-top" alt="p2">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem; color: black;border-radius: 10px;">
+                <img src="{% static 'web/img/p3.jpg'%}" class="card-img-top" alt="p3">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+-->
+
+<section class="projects" id="projects">
+  <h4 class="text-projects text-center fw-bold pb-3" >Proyek kami</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+          <div class="card" style="width: 18rem; color: black; border-radius: 10px;">
+              <img src="{% static 'web/img/project1.jpg'%}" class="card-img-top" alt="p1">
+                <div class="overlay">
+                  <div class="text">Citraland Surabaya</div>
+                </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 18rem; color: black; border-radius: 10px;">
+              <img src="{% static 'web/img/project2.jpg'%}" class="card-img-top" alt="p2">
+              <div class="overlay">
+                <div class="text">Nava Hotel Tawangmangu</div>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 18rem; color: black;border-radius: 10px;">
+              <img src="{% static 'web/img/project4.jpg'%}" class="card-img-top" alt="p3">
+              <div class="overlay">
+                <div class="text">Pakuwon City Surabaya</div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="{% url 'web:project' %}">Proyek lain</a>
+      </div>
+    </div>
+  </div>   
+</section>
+
+<!--<section class="fact" id="fact">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h4>Bisakah mengurangi biaya listrik rumah dan sekaligus mengurangi efek rumah kaca? temukan jawaban Anda pada artikel-artikel kami pada link di bawah ini</h4>
+        <a href="{% url 'web:project' %}">Artikel</a>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</section>-->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#DC143C" fill-opacity="1" d="M0,128L1440,192L1440,320L0,320Z"></path></svg>
+    
+{% endblock %}

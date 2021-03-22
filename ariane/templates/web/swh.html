@@ -1,0 +1,62 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+    <section class="swh-text">
+        <div class="container">
+            <h3>Ariane Solar Water Heater</h3>
+            <p>Kami menyediakan pemanas air matahari dengan bekerjasama dengan perusahaan di China yang sudah Go Public dan berskala internasional. Disini product kami dibagi menjadi dua bagia. Pertama dengan teknologi kaca vacuum dan yang kedua dengan kaca datar. Setiap teknologi mempunyai kelebihan dan kekurangan masing-masing. Silahkan pergi ke bagian masing-masing untuk mempelajari lebih lanjut </p>
+        </div>
+    </section>
+
+    <section class="swh-product">
+        <div class="container">
+            <div class="row pt-4">
+                <h4>Vacuum Tube Kollektor</h4>
+                <div class="col-sm-5">
+                    <img id="swh-vacuum-img" src="{% static 'web/img/swh-vacuum.jpg' %}" alt="swh-vacuum">
+                </div>
+                <div class="col-sm-7 fs-5">
+                    <ul>
+                        <li>Pressurized dan indirect heating system dengan heat exchanger</li>
+                        <li>Tangki penyimpanan air panas terbuat dari stainless steel SUS 304</li>
+                        <li>Untuk seri Ariane C-100 sampai C-300 dengan pipa tembaga heat exchanger</li>
+                        <li>Untuk seri Ariane DT menggunakan sistem double tank atau tanki ganda</li>
+                        <li>Untuk mencegah heat loss, tangki dibungkus dengan high density polyurethane yang tebal</li>
+                        <li>Vacuum tube dengan diameter yang besar (58mm) untuk penyerapan panas yang lebih optimal</li>
+                        <li>Dilengkapi elektrik backup bila cuaca mendung atau hujan</li>
+                    </ul>
+                    <a href="{% static 'web/media/test.pdf' %}" download>brosur C-100</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>brosur C-200</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>brosur C-300</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>brosur DT-150</a>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <h4 class="text-end">Flat Plate Kollektor</h4>
+                <div class="col-7 fs-5">
+                    <ul>
+                        <li>Pressurized dan direct heating system</li>
+                        <li>Tersedia dalam pilihan tangki air panas dengan stainless steel SUS 316L atau SUS304 dan Enamel</li>
+                        <li>Dibungkus dengan high density polyurethane yang tebal untuk meminimalisir heat loss</li>
+                        <li>Kaca panel di coating dengan pilihan teknologi black-chrome maupun blue-tec untuk mengoptimalkan penyerapan panas matahari</li>
+                        <li>Dilengkapi elektrik backup heater dengan thermostat bilamana cuaca mendung atau hujan</li>
+                    </ul>
+                    <a href="{% static 'web/media/test.pdf' %}" download>brosur FL-150</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>brosur FL-300</a>
+                    <a href="{% static 'web/media/test.pdf' %}" download>brosur split VC-300</a>
+                </div>
+                <div class="col-5">
+                    <img id="swh-flat-img" src="{% static 'web/img/swh-flat.jpg' %}" alt="swh-vacuum">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="find-partner-banner">
+        <div class="container">
+            <a href="{% url 'web:partner' %}">Find Partners</a>
+        </div>
+    </section>
+
+{% endblock %}
